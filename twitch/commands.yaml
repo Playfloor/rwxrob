@@ -465,11 +465,11 @@ term: &term >-
 terminal: *term
 
 schedule: &schedule >-
-    🕐 https://twitch.tv/rwxrob/schedule I do !WalkTalk daily at 12:30
-    my !time.  Saturdays 12:30-5:30pm will be Beginner Boost (!boost).
-    Sundays 12:30-2:30 are recorded AMA. The rest is really random.
-    These days the stream is up 24x7 with !music and I am here about 10
-    hours a day !coworking. Also !about !time
+    🕐 This is a !24hour community stream. Most of the time it is me
+    !coworking, !gaming, !running, !skating, !ranting, or just !fishies and
+    !music.  If anything is scheduled (like the !Boost) I try to put it on
+    the Twitch schedule: https://twitch.tv/rwxrob/schedule I also keep
+    !project pretty updated. I've stopped trying to update the titles.
 
 sched: *schedule
 
@@ -970,10 +970,15 @@ offscreen: >-
     Usually, I'll put the !fishies and !music on. I try to leave the
     webcam on anyway, even if !muted during conference calls for !work.
 
-games: >-
-    💚 Witcher3, Dota2, Overwatch, ShenzenIO, TF2, Minecraft. Those are
-    the only games I play. I usually enjoying !hacking and !coding more
-    than playing games.
+games: &games >-
+    💚 Casual and proud! (That's a T-shirt I want.) Being casual means
+    having a fucking life. You BET I'm casual. Witcher3, Dota2,
+    Overwatch, ShenzenIO, TF2, Minecraft. Those are the only "games"
+    I play and I suck horribly at them. I usually enjoying !hacking and
+    !coding and doing !IRL stuff more than playing games.  "Pro gamers"
+    make me laugh my ass off, non-contributing zeros.
+
+gaming: *games
 
 gamedev: >-
     💢 I've made educational games for !skilstak, but not many others.
