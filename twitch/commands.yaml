@@ -1083,3 +1083,11 @@ gitbash: &gitbash >-
     or Linux.
 
 git-bash: *gitbash
+
+belabox: >- 
+    😊🤳 https://belabox.net is by far the best IRL streaming setup for
+    the cost. I've been using it since May 2022 and many other big name
+    IRL streamers are migrating to it. I wear a runner pack with all the
+    gear in it and a GoPro without a battery on my head with a lavalier
+    mic clipped to my hat brim. More on my setup later.
+
