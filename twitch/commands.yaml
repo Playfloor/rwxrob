@@ -730,8 +730,8 @@ os: &os >-
   and Mac laptop. Personally, after running a Linux desktop for more
   than a decade I want nothing to do with Linux desktops. Most people
   cannot run Linux desktops at work, and I want to help *them*. Plus,
-  I stream and Streamlabs is essential software and only works on
-  Windows or Mac.
+  OBS is better on Windows than Linux, which is essential for the
+  BelaBox IRL streaming I do.
 
 distro: *os
 
