@@ -128,6 +128,7 @@ about: &about >-
 
 info: *about
 dox: *about
+bio: *about
 
 school: >-
     🏫 I graduated Brigham Young University (BYU) with Russian Language
@@ -203,12 +204,11 @@ flow: >-
   helps (!pomo).
 
 pomo: &pomo >-
-   🍅 ding dong, time to take a 12 pomo break! ❓ Pomodoro method means
-   focusing on something intensely then taking a regular break.  Our
-   sessions are 54 minutes long since Twitch gives us free,
-   uninterrupted time if we take a 12 minute break. Nobody wants an add
-   to interrupt them during their flow, right? (!flow) Read more at
-   https://github.com/rwxrob/pomo, or add to your own Bonzai tree (!bonzai)
+   🍅 Ding dong, time to take a pomo break! ❓ Pomodoro method means
+   focusing on something intensely then taking a regular break. The
+   ratio's vary. I use 52/5 usually.  Read more at
+   https://github.com/rwxrob/pomo, or add to your own pomo command to
+   your personal Bonzai tree (!bonzai)
 
 bonzai: &bonzai >-
   🌳 https://github.com/rwxrob/bonzai Bonzai™ is a unique command
@@ -283,9 +283,12 @@ browser: *lynx
 
 fish: &fish >-
   🐟 The fishies are the ancient !Perl asciiquarium script that has been
-  modified (by @qmacro) to have !rwx on one of the fish and uses
-  transparent background (instead of black). You can get a copy under
-  "scripts" in my !dot files.
+  modified (by qmacro from community) to have !rwx on one of the fish
+  and uses transparent background (instead of black). You can get a copy
+  under "scripts" in my !dot files.
+
+fishies: *fish
+fishes: *fish
 
 dot: >-
   💥 https://github.com/rwxrob/dot Here are my "dotfiles" (which are
@@ -537,7 +540,16 @@ instagram: https://instagram.com/rwxrob
 
 spotify: https://open.spotify.com/user/xe3r9dvrri2cbnqhu5nfs6a1b
 
-doris: 💚💙 https://instagram.com/doriskapner 🎨
+doris: &doris >-
+  💚💙 https://instagram.com/doriskapner 🎨 Doris and I were married in
+  2012 (after two very ugly divorces that had nothing to do with one
+  another). She's doing crazy amazing things in the !art world right now
+  (which is why we are still in this little apartment during her
+  residency).
+
+wife: *doris
+rwxwife: *doris
+robloves: *doris
 
 sponsor: >-
   🙏 https://github.com/sponsors/rwxrob Thank you for sponsoring with
