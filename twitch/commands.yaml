@@ -685,12 +685,15 @@ pegn: >-
   best of existing meta and data structure languages such as PEG, ABNF,
   EBNF, and !JSON.
 
-lang: >-
+lang: &lang >-
   🌎 I am a native English speaker but went to college for Russian and
   lived in Russia and Ukraine for a few years. I also served a Mormon
   mission to the French West Indies where I learned French and Creole.
   I would really love to learn Mandarin and German and Spanish and
-  Portuguese eventually. Also see !coding for coding language.
+  Portuguese eventually. Also see !coding for coding language(s).
+
+langs: *lang
+languages: *lang
 
 mission: >-
   🌴 Served Mormon mission to French West Indies (Martinique,
