@@ -471,8 +471,8 @@ schedule: &schedule >-
     🕐 This is a !24hour community stream. Most of the time it is me
     !coworking, !gaming, !running, !skating, !ranting, or just !fishies and
     !music.  If anything is scheduled (like the !Boost) I try to put it on
-    the Twitch schedule: https://twitch.tv/rwxrob/schedule I also keep
-    !project pretty updated. I've stopped trying to update the titles.
+    the Twitch schedule: https://twitch.tv/rwxrob/schedule and restart the
+    stream to notify people. I also keep !project pretty updated.
 
 sched: *schedule
 
