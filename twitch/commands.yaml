@@ -518,7 +518,10 @@ walktalk: >-
 
 hug: "/me hugs {target.name} <3"
 
-up: "The stream has been live for {uptime}"
+up: &up "The stream has been live for {uptime}"
+
+uptime: *up
+live: *up
 
 lurk: "/me {user.name} is now lurking"
 
