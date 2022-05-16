@@ -233,12 +233,12 @@ z: >-
   !foss projects so I'm not wasting time porting.
 
 boost: &boost >-
-  ⚡ https://github.com/rwxrob/boost The SKILSTAK Beginner Boost™ is an
-  annual free, live, recorded, tech series focused on helping people get
-  security and IT operations jobs. We start Wednesday May the 4th at
-  11:11:11 and have weekly live five-hour sessions most every Saturday
-  with AMA on Sundays recorded to Youtube. See GitHub for prereqs,
-  outline, and previous Boosts.
+  ⚡ https://github.com/rwxrob/boost Originally based on 1-1 private
+  mentoring at !skilstak, the Beginner Boost™ is now an annual free,
+  live, recorded, tech series focused on helping people get backend
+  !dev, security, and IT operations jobs. We start May the 4th at
+  11:11:11 and have weekly live sessions most every Sunday. See link for
+  prereqs, outline, and previous Boosts.
 
 course: *boost
 courses: *boost
@@ -1093,4 +1093,12 @@ belabox: >-
     IRL streamers are migrating to it. I wear a runner pack with all the
     gear in it and a GoPro without a battery on my head with a lavalier
     mic clipped to my hat brim. More on my setup later.
+
+skopeo: >-
+    💻 https://github.com/containers/skopeo Skopeo copies container
+    images from one registry to another without the hassle of having to
+    install Docker or any other container engine. It's a required tool
+    for most cloud native infrastructure engineers because they are
+    constantly bringing in external images into their private internal
+    registries.
 
